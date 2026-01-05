@@ -1,2 +1,14 @@
-internal_data/
-src/config.php
+# XenForo runtime / state
+/data/
+/internal_data/
+/config.php
+/src/config.php
+
+# Logs / cache
+*.log
+*.cache
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
