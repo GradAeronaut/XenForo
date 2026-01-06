@@ -3,12 +3,22 @@
 namespace Portal\OAuth;
 
 use XF\AddOn\AbstractSetup;
-use XF\AddOn\StepRunnerInstallTrait;
-use XF\AddOn\StepRunnerUninstallTrait;
 
 class Setup extends AbstractSetup
 {
-    use StepRunnerInstallTrait;
-    use StepRunnerUninstallTrait;
+    public function install(array $stepParams = [])
+    {
+        // nothing
+    }
+
+    public function upgrade(array $stepParams = [])
+    {
+        // nothing
+    }
+
+    public function uninstall(array $stepParams = [])
+    {
+        // nothing
+    }
 }
 
