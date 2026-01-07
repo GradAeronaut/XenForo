@@ -1,5 +1,5 @@
 # GradAeronaut.com - Portal & KNEEBOARD
-
+ 
 Интегрированный ПОРТАЛ (Sinbad) и KNEEBOARD на базе XenForo с системой единого входа (SSO).
 
 ## Структура проекта
